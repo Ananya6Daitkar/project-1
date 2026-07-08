@@ -1,21 +1,9 @@
-# headless opencv — works on Linux servers
-opencv-python-headless==4.9.0.80
-
-# data
-numpy==1.26.4
-pandas==2.2.2
-Pillow==10.3.0
-
-# visualisation
-matplotlib==3.8.4
-plotly==5.22.0
-
-# web app
-streamlit==1.35.0
-
-# IoT simulation
-paho-mqtt==1.6.1
-
-# utilities
-pyyaml==6.0.1
-requests==2.31.0
+opencv-python-headless
+numpy
+Pillow
+matplotlib
+plotly
+streamlit
+paho-mqtt
+pyyaml
+pandas

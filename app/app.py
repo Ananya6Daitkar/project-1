@@ -12,7 +12,12 @@ import random
 from pathlib import Path
 from io import BytesIO
 
-import cv2
+try:
+    import cv2
+except ImportError:
+    import streamlit as _st
+    _st.error("OpenCV not installed. Check packages.txt and requirements.txt.")
+    _st.stop()
 import numpy as np
 import streamlit as st
 import plotly.graph_objects as go
