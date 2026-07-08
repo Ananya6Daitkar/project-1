@@ -1,5 +1,9 @@
 # 🌑 Lunar & Martian Crater Detection
 
+[![Live Demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ananya6daitkar-project-1-appapp-bqj8fk.streamlit.app)
+
+**🚀 Live app → https://ananya6daitkar-project-1-appapp-bqj8fk.streamlit.app**
+
 > Upload a planetary surface image. Get back every crater found — boxed, classified, and streamed as live satellite telemetry.
 
 ---
