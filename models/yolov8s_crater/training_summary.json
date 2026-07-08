@@ -1,0 +1,9 @@
+{
+  "model": "yolov8s",
+  "description": "YOLOv8 Small \u2014 11.2M params, ~14ms, more accurate",
+  "elapsed_minutes": 13.07,
+  "map50": 0.8198588579309528,
+  "map50_95": 0.5918416963967496,
+  "precision": 0.8647323046913332,
+  "recall": 0.7507796436852968
+}

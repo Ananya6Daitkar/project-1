@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model weights (too large for GitHub — download separately)
+*.pt
+*.pth
+*.onnx
+*.torchscript
+
+# Large data files
+data/raw/
+data/processed/
+data/telemetry.jsonl
+data/robbins_catalog_stats.json
+
+# Training output (keep results JSON, ignore plots/images)
+models/*/weights/
+models/**/train*/
+models/**/*.png
+models/**/*.jpg
+models/**/args.yaml
+models/**/results.csv
+
+# Keep eval results and summaries
+!models/**/eval_results.json
+!models/**/training_summary.json
+
+# Sample images (generated locally)
+app/assets/*.png
+app/assets/*.jpg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp

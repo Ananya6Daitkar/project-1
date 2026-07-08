@@ -1,0 +1,9 @@
+names:
+- small_crater
+- medium_crater
+- large_crater
+nc: 3
+path: /Users/nalinee/NEW /crater-detection/data/processed
+test: images/test
+train: images/train
+val: images/val
